@@ -6,3 +6,8 @@ scolaires et bien plus.
 EdukaTek vise à introduire l'éducation à l'ère du numérique à travers la
 recherche et le développement de nouveaux outils innovants.
 Notre objectif est de mettre l'éducation à l'ère du 21ème siècle.
+
+La technologie a mis à la disposition des acteurs de l'éducation, de
+nouveaux outils dont l'efficacité ne peut être niée.
+EdukaTek vise à introduire l'éducation à l'ère du numérique à travers la
+recherche et le développement de nouveaux outils innovants.

@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                 <span className="icon">
                   <img src={edukatek} alt="EdukaTek" />
                 </span>
-                <span> E-learining</span>
+                <span>E-learning</span>
               </a>
             </div>
           </div>
