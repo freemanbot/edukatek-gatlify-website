@@ -1,16 +1,13 @@
 ---
 templateKey: index-page
-title: "EdukaTek: l'Education à l'ère des Tecnologies"
+title: "EdukaTek: l'Education à l'ère des Technologies"
 image: /img/digital-learning-background.png
-heading: Les nouvelles technologies au service de l'éducation
+heading: Les N.T.I.C au service de l'éducation
 subheading: Mettre les nouvelles technologies de l'information au service de l'éducation
 mainpitch:
   title: EdukaTek
   description: >
-    La technologie a mis à la disposition des acteurs de l'éducation, de
-    nouveaux outils dont l'efficacité ne peut être niée.
-    EdukaTek vise à introduire l'éducation à l'ère du numérique à travers la
-    recherche et le développement de nouveaux outils innovants.
+    Votre partenaire pour faire évolution l'éducation à l'ère du numérique.
 description: >-
   Les nouvelles technologies de l'information et de la communication
   (N.T.I.C.) influent directement sur les deux missions fondamentales de
