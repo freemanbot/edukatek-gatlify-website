@@ -1,10 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+// import BlogRoll from "../components/BlogRoll";
+import Testimonials from "../components/Testimonials";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
   image,
@@ -14,6 +16,8 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  testimonials,
+  fullImage
 }) => (
   <div>
     <div
@@ -22,29 +26,29 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundPosition: `top center`
+        // backgroundAttachment: `fixed`
       }}
     >
       <div
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          display: "flex",
+          height: "150px",
+          lineHeight: "1",
+          justifyContent: "space-around",
+          alignItems: "left",
+          flexDirection: "column"
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+              "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em"
           }}
         >
           {title}
@@ -53,11 +57,11 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+              "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em"
           }}
         >
           {subheading}
@@ -87,7 +91,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
@@ -104,15 +108,39 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    {/* <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <Testimonials testimonials={testimonials} />
+                <div
+                  className="full-width-image-container"
+                  style={{
+                    backgroundImage: `url(${
+                      fullImage.childImageSharp
+                        ? fullImage.childImageSharp.fluid.src
+                        : fullImage
+                    })`
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> */}
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -121,13 +149,15 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  testimonials: PropTypes.array,
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+    blurbs: PropTypes.array
+  })
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -139,20 +169,24 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        testimonials={frontmatter.testimonials}
+        fullImage={frontmatter.full_image}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
+      frontmatter: PropTypes.object
+    })
   }),
-}
+  testimonials: PropTypes.array,
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -187,7 +221,18 @@ export const pageQuery = graphql`
           heading
           description
         }
+        testimonials {
+          author
+          quote
+        }
+        full_image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
-`
+`;

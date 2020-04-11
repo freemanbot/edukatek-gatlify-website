@@ -1,50 +1,51 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: "EdukaTek: l'Education à l'ère des Tecnologies"
+image: /img/digital-learning-background.png
+heading: Les nouvelles technologies au service de l'éducation
+subheading: Mettre les nouvelles technologies de l'information au service de l'éducation
 mainpitch:
-  title: Why Kaldi
+  title: EdukaTek
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    La technologie a mis à la disposition des acteurs de l'éducation, de
+    nouveaux outils dont l'efficacité ne peut être niée.
+    EdukaTek vise à introduire l'éducation à l'ère du numérique à travers la
+    recherche et le développement de nouveaux outils innovants.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Les nouvelles technologies de l'information et de la communication
+  (N.T.I.C.) influent directement sur les deux missions fondamentales de
+  l'école que sont la transmission du savoir et la socialisation des jeunes.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/learning-environment.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Actuellement, les didacticiens considèrent l’apprentissage de plus en
+        plus comme un processus guidé de façon autonome et active par
+        l’apprenant lui-même et nécessitant dès lors un environnement
+        d’apprentissage puissant
+    - image: /img/collaboration.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Outils et activités de collaboration: Travaillez et apprenez ensemble
+        dans des forums, wikis, glossaires, activités de bases de données, et
+        bien plus encore.
+
+    - image: /img/for-teachers.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Pour le professeur: L’ergonomie cognitive appliquée au professeur doit
+        lui faciliter la préparation et la dispensation du cours, la gestion
+        des ressources pédagogiques ainsi que la correction des travaux. Il
+        faut toutefois peser le temps nécessaire à la maîtrise de nouveaux
+        logiciels ou de nouvelles plates-formes et, à ce chapitre, l’adaptation
+        progressive aux outils informatiques est de règle.
+
+    - image: /img/ergonomie-conginitive.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Améliorer l'érgonomie cognitive à travers l'utilisation des bons
+        outils pédagogiques: Celle-ci concerne tous les aspects
+        du travail impliquant un traitement de l’information par l’homme.
+        Elle s’intéresse aux processus mentaux, tels que la perception, la
+        mémoire, le raisonnement et les réponses motrices. 
+
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

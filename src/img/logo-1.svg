@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg922"
+   version="1.1"
+   viewBox="0 0 51.123788 7.2813104"
+   height="27.519913"
+   width="193.22377">
+  <defs
+     id="defs916" />
+  <metadata
+     id="metadata919">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-37.938106,-105.97244)"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;mix-blend-mode:normal;fill:#ff4400;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.853439"
+       y="113.08442"
+       id="text904"><tspan
+         style="stroke-width:0.264583"
+         id="tspan902"
+         x="37.853439"
+         y="113.08442">EdukaTek</tspan></text>
+  </g>
+</svg>
