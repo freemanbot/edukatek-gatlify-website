@@ -78,20 +78,6 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link> */}
             </div>
-<<<<<<< HEAD
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://learn.edukatek.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={edukatek} alt="EdukaTek" />
-                </span>
-                <span> E-LEARN</span>
-              </a>
-=======
 
             <div class="navbar-end">
               <div class="navbar-item">
@@ -106,7 +92,6 @@ const Navbar = class extends React.Component {
                   </a>
                 </div>
               </div>
->>>>>>> call-for-action
             </div>
           </div>
         </div>
