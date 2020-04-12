@@ -7,7 +7,7 @@ subheading: Mettre les nouvelles technologies de l'information au service de l'�
 mainpitch:
   title: EdukaTek
   description: >
-    Votre partenaire pour faire évolution l'éducation à l'ère du numérique.
+    Votre partenaire pour faire évolution l'éducation à l'ère du numérique. Nous vous proposons d'accèder à notre Espace Numérique de Travail (ENT) pour tirer profit des dernières innovations en matière d'enseignement en mettant à contributions les nouvelles technologies.
 description: >-
   Les nouvelles technologies de l'information et de la communication
   (N.T.I.C.) influent directement sur les deux missions fondamentales de
@@ -41,7 +41,7 @@ intro:
         outils pédagogiques: Celle-ci concerne tous les aspects
         du travail impliquant un traitement de l’information par l’homme.
         Elle s’intéresse aux processus mentaux, tels que la perception, la
-        mémoire, le raisonnement et les réponses motrices. 
+        mémoire, le raisonnement et les réponses motrices.
 
   heading: What we offer
   description: >
