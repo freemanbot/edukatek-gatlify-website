@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
+// import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 // import BlogRoll from "../components/BlogRoll";
-import Testimonials from "../components/Testimonials";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+// import Testimonials from "../components/Testimonials";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
   image,
@@ -15,9 +16,9 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
-  testimonials,
-  fullImage
+  intro
+  // testimonials,
+  // fullImage
 }) => (
   <div>
     <div
@@ -82,6 +83,20 @@ export const IndexPageTemplate = ({
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
+
+                <div className="content buttons is-centered">
+                  {/* <button class="button is-large is-primary is-outlined"> */}
+                  <a
+                    class="button is-primary is-large is-primary is-outlined"
+                    href="https://learn.edukatek.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Accéder à notre ENT
+                  </a>
+                  {/* </button> */}
+                </div>
+
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -169,8 +184,8 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
+        // testimonials={frontmatter.testimonials}
+        // fullImage={frontmatter.full_image}
       />
     </Layout>
   );

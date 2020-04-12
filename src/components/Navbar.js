@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import edukatek from "../img/logo-image-only200.png";
+// import github from "../img/github-icon.svg";
+// import edukatek from "../img/logo-image-only200.png";
 import logo from "../img/logo-1.svg";
 
 const Navbar = class extends React.Component {
@@ -43,9 +43,10 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <img src={logo} alt="EdukaTek" style={{ width: "130px" }} />
             </Link>
             {/* Hamburger menu */}
+            {/* eslint-disable-next-line */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
@@ -77,18 +78,20 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link> */}
             </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://learn.edukatek.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={edukatek} alt="EdukaTek" />
-                </span>
-                <span>E-learning</span>
-              </a>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a
+                    class="button is-primary"
+                    href="https://learn.edukatek.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <strong>Commencer ici</strong>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
