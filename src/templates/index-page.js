@@ -88,7 +88,7 @@ export const IndexPageTemplate = ({
                   {/* <button class="button is-large is-primary is-outlined"> */}
                   <a
                     class="button is-primary is-large is-primary is-outlined"
-                    href="https://learn.edukatek.com/"
+                    href="https://learn.edukatek.com/login/index.php"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

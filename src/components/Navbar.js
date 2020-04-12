@@ -84,7 +84,7 @@ const Navbar = class extends React.Component {
                 <div class="buttons">
                   <a
                     class="button is-primary"
-                    href="https://learn.edukatek.com/"
+                    href="https://learn.edukatek.com/login/index.php"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
