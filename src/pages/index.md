@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: "EdukaTek: l'Education à l'ère des Technologies"
+title: "EdukaTek: l'Éducation à l'ère des Technologies"
 image: /img/digital-learning-background.png
 heading: Pourquoi adopter l'ENT dès aujourd'hui ?
 subheading: Mettre les nouvelles technologies de l'information au service de l'éducation
@@ -8,7 +8,7 @@ mainpitch:
   title: EdukaTek
   description: >
     Votre partenaire pour faire évoluer l'éducation à l'ère du numérique. 
-    Adopter l'Espace Numérique de Travail (ENT) pour vos élèves, vos enseignements et même les parents.
+    Adopter l'Espace Numérique de Travail (ENT) pour vos élèves, vos enseignants et même les parents.
 description: >-
   Les nouvelles technologies de l'information et de la communication
   (N.T.I.C.) influent directement sur les deux missions fondamentales de
