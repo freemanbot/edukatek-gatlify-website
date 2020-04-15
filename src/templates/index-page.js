@@ -67,6 +67,24 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+
+        <div
+          className="content buttons is-centered"
+          style={{
+            marginTop: "1em"
+          }}
+        >
+          {/* <button class="button is-large is-primary is-outlined"> */}
+          <a
+            class="button is-primary is-light is-medium is-primary"
+            href="https://learn.edukatek.com/login/index.php"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Accéder à notre ENT
+          </a>
+          {/* </button> */}
+        </div>
       </div>
     </div>
     <section className="section section--gradient">
@@ -82,19 +100,6 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
-                </div>
-
-                <div className="content buttons is-centered">
-                  {/* <button class="button is-large is-primary is-outlined"> */}
-                  <a
-                    class="button is-primary is-large is-primary is-outlined"
-                    href="https://learn.edukatek.com/login/index.php"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Accéder à notre ENT
-                  </a>
-                  {/* </button> */}
                 </div>
 
                 <div className="columns">
@@ -130,6 +135,19 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+
+    <div
+      className="content buttons is-centered"
+      style={{
+        paddingBottom: "4em"
+      }}
+    >
+      {/* <button class="button is-large is-primary is-outlined"> */}
+      <a class="button is-primary is-large is-primary" href="/contact">
+        Demandez votre ENT
+      </a>
+      {/* </button> */}
+    </div>
 
     {/* <section className="section section--gradient">
       <div className="container">
