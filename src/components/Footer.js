@@ -6,6 +6,11 @@ import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
 import vimeo from "../img/social/vimeo.svg";
+// import { animateScroll as scroll } from "react-scroll";
+
+// const scrollToTop = () => {
+//   scroll.scrollToTop();
+// };
 
 const Footer = class extends React.Component {
   render() {
@@ -15,6 +20,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Kaldi"
+            // onClick={scrollToTop}
             style={{ width: "14em", height: "10em" }}
           />
         </div>
