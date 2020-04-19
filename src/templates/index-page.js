@@ -116,6 +116,63 @@ export const IndexPageTemplate = ({
     </div>
     <section id="parents" className="section section--gradient">
       <div className="container">
+        <div className="columns is-centered is-mobile">
+          <div class="column is-one-quarter is-half-mobile">
+            <div class="content">
+              <figure class="image is-128x128">
+                <img
+                  src="https://bulma.io/images/placeholders/128x128.png"
+                  alt="schedule"
+                />
+              </figure>
+              <h3>Daily schedule</h3>
+              <h5>Get our daily schedule for students age 2 to 18.</h5>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter is-half-mobile">
+            <div class="content">
+              <figure class="image is-128x128">
+                <img
+                  src="https://bulma.io/images/placeholders/128x128.png"
+                  alt="schedule"
+                />
+              </figure>
+              <h3>Daily schedule</h3>
+              <h5>Get our daily schedule for students age 2 to 18.</h5>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter">
+            <div class="content">
+              <figure class="image is-128x128">
+                <img
+                  src="https://bulma.io/images/placeholders/128x128.png"
+                  alt="schedule"
+                />
+              </figure>
+              <h3>Daily schedule</h3>
+              <h5>Get our daily schedule for students age 2 to 18.</h5>
+            </div>
+          </div>
+
+          <div class="column is-one-quarter">
+            <div class="content">
+              <figure class="image is-128x128">
+                <img
+                  src="https://bulma.io/images/placeholders/128x128.png"
+                  alt="schedule"
+                />
+              </figure>
+              <h3>Daily schedule</h3>
+              <h5>Get our daily schedule for students age 2 to 18.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="parents" className="section section--gradient">
+      <div className="container">
         <div className="content">
           <div className="tile">
             <h1 className="title">{mainpitch.title}</h1>
