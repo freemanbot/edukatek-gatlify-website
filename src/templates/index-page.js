@@ -200,7 +200,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               Ce qu'il faut savoir pour en profiter pleinement
             </div>
-            <div class="column is-one-quarter tile">Lire la suite</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/online-learning-guide">Lire la suite </Link>
+            </div>
           </div>
           <hr />
           <div class="columns tile subtitle">
@@ -209,14 +211,6 @@ export const IndexPageTemplate = ({
               Comment bien préparer ses enfants à passer leurs examens
             </div>
             <div class="column is-one-quarter tile">En savoir plus</div>
-          </div>
-          <hr />
-          <div class="columns tile subtitle">
-            <div class="column is-one-quarter">Guide de démarrage</div>
-            <div class="column">
-              Apprendre à utiliser l'ENT en moins de 15 minutes
-            </div>
-            <div class="column is-one-quarter tile">Lire le guide</div>
           </div>
           <hr />
         </div>

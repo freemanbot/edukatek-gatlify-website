@@ -9,25 +9,50 @@ tags:
   - Guide
   - Parents
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+<!-- ![flavor wheel](/img/flavor_wheel.jpg) -->
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+Les parents sont un élément central pour assurer la continuité de
+l'apprentissage des enfants au-delà de l'école. A travers l'Éspace Numérique de
+Travail, nous voulons vous faciliter la tâche en vous mettant au courant de
+l'évolution de votre enfant et des éventuels difficultés qu'il pourrait
+rencontrer pendant son apprentissage.
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+Ce guide vous aidera à bien démarrer sur l'ENT et vous familiariser avec outil.
 
-## What the updates mean to you
+Si vous êtes prêts à démarrer, vous pourrez utiliser ce guide pour vous mettre
+en route en réalisant les étapes de 1-4 en 15 minutes seulement. N'hésitez pas à
+vous rendre directement aux parties que vous jugerez utiles à l'aide des liens
+ci-dessous:
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+ * **Étape 1:** Créez votre compte parent ou connectez-vous à votre compte si
+     vous en avez déjà un.
+ * **Étape 2:** Rendez-vous sur votre Tableau de bord parent
+ * **Étape 3:** Ajoutez le compte d'un autre enfant ou créez un nouveau compte enfant
+ * **Étape 4:** Demandez à votre enfant de se connecter
+ * **Étape 5:** Domaine, démarrez l'apprentissage de votre enfant, et suivez ses progrès
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+---
+## Étape 1: Créez votre compte Parent
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+Pour commencer: si vous n'avez pas encore de compte, il faudra vous en créer un
+en vous rendant sur la page **contact** ce site.
+Renseigner votre nom complet ainsi que votre adresse email.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+![Ask for new account](/img/contact-page-screen.png)
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+Dans le champ **Message**, veuillez renseigner le nom de votre enfant ainsi que
+sa date de naissance. Si votre enfant n'a pas encore de compte sur l'ENT,
+veuillez l'indiquez pour qu'un compte lui soit crée en même temps que le votre.
+
+Votre compte sera crée sous les 24 heures et vous allez recevoir une réponse sur
+l'adresse email que vous avez renseigné avec les **login/mot de passe** pour vous
+connectez.
+
+### Vous connecter à un compte existant
+Si vous avez déjà un compte ENT, vous pouvez vous connecter dessus en cliquant
+sur **Commencer ici** sur la page d'accueil du site.
+
+## Étape 2: Rendez-vous sur votre Tableau de bord parent
+## Étape 3: Ajouter le compte d'un autre enfant ou créer un nouveau compte enfant
+## Étape 4: Demandez à votre enfant de se connecter
+## Étape 5: Démarrez l'apprentissage de votre enfant, et suivez ses progrès
