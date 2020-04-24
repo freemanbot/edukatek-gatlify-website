@@ -28,8 +28,7 @@ ci-dessous:
      vous en avez déjà un.
  * **Étape 2:** Rendez-vous sur votre Tableau de bord parent
  * **Étape 3:** Ajoutez le compte d'un autre enfant ou créez un nouveau compte enfant
- * **Étape 4:** Demandez à votre enfant de se connecter
- * **Étape 5:** Domaine, démarrez l'apprentissage de votre enfant, et suivez ses progrès
+ * **Étape 4:** Démarrez l'apprentissage de votre enfant, et suivez ses progrès
 
 ---
 ## Étape 1: Créez votre compte Parent
@@ -53,6 +52,21 @@ Si vous avez déjà un compte ENT, vous pouvez vous connecter dessus en cliquant
 sur **Commencer ici** sur la page d'accueil du site.
 
 ## Étape 2: Rendez-vous sur votre Tableau de bord parent
+
+![Tableau de bord des parents](/img/parent-dashboard.png)
+
+
 ## Étape 3: Ajouter le compte d'un autre enfant ou créer un nouveau compte enfant
-## Étape 4: Demandez à votre enfant de se connecter
-## Étape 5: Démarrez l'apprentissage de votre enfant, et suivez ses progrès
+Afin d'ajouter un autre compte enfant à votre profile, il vous suffit d'en faire
+la demande comme pour la création de votre compte, c'est à dire à travers la
+page **contact**.
+
+![Tableau de bord des parents 2](/img/parent-dashboard-2.png)
+
+## Étape 4: Démarrez l'apprentissage de votre enfant, et suivez ses progrès
+Votre compte parent vous permet de suivre tout ce que votre enfant fait sur
+l'ENT. Tous les cours et exercices réalisés par l'enfant ainsi que les notes
+qu'il a obtenu sont affiché sur la page du tableau de bord du parent.
+
+![Notes de l'enfant](/img/student-grades.png)
+
