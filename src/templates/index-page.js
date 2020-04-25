@@ -14,8 +14,8 @@ import Icon from "@mdi/react";
 import {
   mdiMonitorCellphoneStar,
   mdiTeach,
-  mdiUbuntu,
-  mdiHeadSnowflakeOutline
+  mdiHeadSnowflakeOutline,
+  mdiHandshake
 } from "@mdi/js";
 
 export const IndexPageTemplate = ({
@@ -169,7 +169,7 @@ export const IndexPageTemplate = ({
           <div class="column is-one-quarter">
             <div class="content">
               <figure class="image is-128x128">
-                <Icon path={mdiUbuntu} title="User Profile" color="red" />
+                <Icon path={mdiHandshake} title="User Profile" color="red" />
               </figure>
               <h3>Communauté</h3>
               <h5>Intégrer une communauté active et réactive</h5>
@@ -213,7 +213,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               Comment bien préparer ses enfants à passer leurs examens
             </div>
-            <div class="column is-one-quarter tile">En savoir plus</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/exam-preparation">En savoir plus</Link>
+            </div>
           </div>
           <hr />
         </div>
@@ -239,7 +241,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               Commencer à enseigner sur l'ENT dès aujourd'hui
             </div>
-            <div class="column is-one-quarter tile">Ouvrir un compte</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/parents-starter-guide">Ouvrir un compte</Link>
+            </div>
           </div>
           <hr />
           <div class="columns tile subtitle">
@@ -247,7 +251,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               En savoir plus sur ce que vous pouvez faire avec l'ENT
             </div>
-            <div class="column is-one-quarter tile">En savoir plus</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/entry-under-construction">En savoir plus</Link>
+            </div>
           </div>
           <hr />
           <div class="columns tile subtitle">
@@ -258,7 +264,9 @@ export const IndexPageTemplate = ({
               Apprendre à utiliser l'ENT pour préparer et délivrer vos cours
             </div>
             <div class="column is-one-quarter tile">
-              S'inscrire à la formation
+              <Link to="/blog/entry-under-construction">
+                S'inscrire à la formation
+              </Link>
             </div>
           </div>
           <hr />
@@ -267,7 +275,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               Apprendre à utiliser l'ENT en moins de 15 minutes
             </div>
-            <div class="column is-one-quarter tile">Lire le guide</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/entry-under-construction">Lire le guide</Link>
+            </div>
           </div>
           <hr />
         </div>
@@ -290,7 +300,9 @@ export const IndexPageTemplate = ({
               Découvrir comment tirer profit d'un partenariat en faveur de
               l'enseignement
             </div>
-            <div class="column is-one-quarter tile">En savoir plus</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/entry-under-construction">En savoir plus</Link>
+            </div>
           </div>
           <hr />
           <div class="columns tile subtitle">
@@ -299,7 +311,9 @@ export const IndexPageTemplate = ({
               Aider nous à promouvoir les nouveaux outils d'enseignements à
               distance
             </div>
-            <div class="column is-one-quarter tile">Voir le guide</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/entry-under-construction">Voir le guide</Link>
+            </div>
           </div>
           <hr />
           <div class="columns tile subtitle">
@@ -309,7 +323,9 @@ export const IndexPageTemplate = ({
             <div class="column">
               Ouvrer l'accès de vos cours, étendre votre visibilité
             </div>
-            <div class="column is-one-quarter tile">Voir le contenu</div>
+            <div class="column is-one-quarter tile">
+              <Link to="/blog/entry-under-construction">Voir le contenu</Link>
+            </div>
           </div>
           <hr />
         </div>

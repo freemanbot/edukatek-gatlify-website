@@ -40,6 +40,11 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Contact</h1>
+              <p class="subtitle is-4">
+                Pour toute demande d'information, ouveture de compte ou
+                insription à notre news letter, merci de bien vouloir renseigner
+                le formulaire ci-après:
+              </p>
               <form
                 name="contact"
                 method="post"
@@ -102,7 +107,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    Envoyer
                   </button>
                 </div>
               </form>
