@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: "EdukaTek: l'Éducation à l'ère des Technologies"
+title: "l'Éducation à l'ère des Technologies"
 image: /img/digital-learning-background.png
 heading: Pourquoi adopter l'ENT dès aujourd'hui ?
 subheading: Mettre les nouvelles technologies de l'information au service de l'éducation
