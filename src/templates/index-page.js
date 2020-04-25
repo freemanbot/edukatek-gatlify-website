@@ -10,6 +10,13 @@ import Layout from "../components/Layout";
 // import Testimonials from "../components/Testimonials";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { Link as Scroll } from "react-scroll";
+import Icon from "@mdi/react";
+import {
+  mdiMonitorCellphoneStar,
+  mdiTeach,
+  mdiUbuntu,
+  mdiHeadSnowflakeOutline
+} from "@mdi/js";
 
 export const IndexPageTemplate = ({
   image,
@@ -117,19 +124,16 @@ export const IndexPageTemplate = ({
     </div>
     <section id="parents" className="section section--gradient">
       <div className="container">
-        <div className="columns is-centered is-mobile">
+        <div className="columns is-centered is-half-mobile">
           <div class="column is-one-quarter is-half-mobile">
             <div class="content">
-              <div class="icon">
-                {/* <i class="fas fa-fileInvoice"></i> */}
-                <i class="fa fa-info-circle"></i>
-              </div>
-              {/* <figure class="image is-128x128">
-                <img
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="schedule"
+              <figure class="image is-128x128">
+                <Icon
+                  path={mdiMonitorCellphoneStar}
+                  title="User Profile"
+                  color="red"
                 />
-              </figure> */}
+              </figure>
               <h3>Interactivité</h3>
               <h5>A travers la multiplication des cannaux d'apprentissage</h5>
             </div>
@@ -138,10 +142,7 @@ export const IndexPageTemplate = ({
           <div class="column is-one-quarter is-half-mobile">
             <div class="content">
               <figure class="image is-128x128">
-                <img
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="schedule"
-                />
+                <Icon path={mdiTeach} title="User Profile" color="red" />
               </figure>
               <h3>Collaboration</h3>
               <h5>Développer le travail en groupe et l'esprit collaboratif</h5>
@@ -151,9 +152,10 @@ export const IndexPageTemplate = ({
           <div class="column is-one-quarter">
             <div class="content">
               <figure class="image is-128x128">
-                <img
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="schedule"
+                <Icon
+                  path={mdiHeadSnowflakeOutline}
+                  title="User Profile"
+                  color="red"
                 />
               </figure>
               <h3>Accès libre</h3>
@@ -167,10 +169,7 @@ export const IndexPageTemplate = ({
           <div class="column is-one-quarter">
             <div class="content">
               <figure class="image is-128x128">
-                <img
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="schedule"
-                />
+                <Icon path={mdiUbuntu} title="User Profile" color="red" />
               </figure>
               <h3>Communauté</h3>
               <h5>Intégrer une communauté active et réactive</h5>
