@@ -2,6 +2,7 @@
 templateKey: index-page
 title: "l'Éducation à l'ère des Technologies"
 image: /img/digital-learning-background.png
+# full_image: /img/moodle-homepage.png
 heading: Pourquoi adopter l'ENT dès aujourd'hui ?
 subheading: Mettre les nouvelles technologies de l'information au service de l'éducation
 mainpitch:

@@ -9,7 +9,7 @@ import Layout from "../components/Layout";
 // import BlogRoll from "../components/BlogRoll";
 // import Testimonials from "../components/Testimonials";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { Link as Scroll } from "react-scroll";
+// import { Link as Scroll } from "react-scroll";
 import Icon from "@mdi/react";
 import {
   mdiMonitorCellphoneStar,
@@ -84,7 +84,17 @@ export const IndexPageTemplate = ({
                 padding: "0.8rem"
               }}
             >
+              {/* <p class="control">
+                <Scroll to="enseignants">
+                  <button class="button is-primary">Se connecter à la plateforme</button>
+                </Scroll>
+              </p>
               <p class="control">
+                <Scroll to="enseignants">
+                  <button class="button is-primary">Ouvrire un compte</button>
+                </Scroll>
+              </p> */}
+              {/* <p class="control">
                 <Scroll to="parents">
                   <button class="button is-primary">Parents</button>
                 </Scroll>
@@ -98,7 +108,7 @@ export const IndexPageTemplate = ({
                 <Scroll to="schools">
                   <button class="button is-primary">Écoles</button>
                 </Scroll>
-              </p>
+              </p> */}
               {/* <p class="control">
                 <button class="button is-primary">FAQ</button>
               </p> */}
@@ -122,9 +132,13 @@ export const IndexPageTemplate = ({
           {/* </div> */}
         </div>
       </div>
-      <section id="parents" className="section section--gradient">
-        <div className="container">
-          <div className="columns is-centered is-half-mobile">
+      {/* <section id="parents" className="section section--gradient">
+        <div className="container is-fullwidth is-centered">
+           <figure class="image is-16by9">
+            <img src="https://bulma.io/images/placeholders/128x128.png"></img>
+          </figure> */}
+
+      {/* <div className="columns is-centered is-half-mobile">
             <div class="column is-one-quarter is-half-mobile">
               <div class="content">
                 <figure class="image is-128x128">
@@ -177,17 +191,90 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
       <section id="parents" className="section section--gradient">
         <div className="container">
           <div className="content">
-            <div className="columns">
-              <div className="column is-12">
-                <h3 className="has-text-weight-semibold is-size-2">Parents</h3>
-              </div>
+            <div className="column is-12">
+              <h3 className="has-text-weight-semibold is-size-2">Plateforme d'enseignement en ligne</h3>
+
+              <p> La plateforme permet aux étudiants notamment de télécharger
+              leurs cours, de déposer leurs devoirs, de disposer d'un suivi
+              pédagogique et éventuellement d'un tutorat. Les codes d'accès à
+              la plateforme vous sont communiqués après votre inscription.
+              </p>
+
+              <p> <b>EdukaTek</b> est une plateforme d'apprentissage en ligne
+              offrant un grand nombre de fonctionnalités. Elle permet
+              d'accéder aux ressources d'un cours et d'échanger au sein de
+              communautés d'apprenants autour de contenus et d'activités
+              pédagogiques.
+              </p>
+
+              <p> La connexion à la plateforme se fait à partir d’un
+              ordinateur PC ou Mac, une tablette ou même un smartphone.
+              {/* Vous pouvez utiliser les navigateurs suivants : */}
+              </p>
+
+              <h3 className="has-text-weight-semibold is-size-2">Fonctionalités</h3>
+              <ul>
+                <li>
+                  <strong>Cours en directe ou enregistrés:</strong> l’enseignant peut
+                dérouler une séance live (vidéoconférences) avec ces élèves
+                ou choisir d’enregistrer sa séance puis la diffuser au
+                élèves.</li>
+
+                <li>
+                  <strong>Forums :</strong> c'est un espace d’échanges pour tout le groupe ou
+                  pour un sous-groupe. La participation à un forum passe par
+                  l’envoi d’une ou plusieurs contributions à l’intérieur d’un
+                  sujet de discussion. Un forum peut comprendre plusieurs
+                  sujets de discussion. Il y a un forum par cours, un forum
+                  pour dialoguer avec le tuteur, et un forum pour dialoguer
+                  entre étudiants.
+                </li>
+
+                <li>
+                  <strong>Chat</strong> ou « salon de bavardage » : c'est une activité de
+                  communication en direct. Il affiche en temps réel la liste
+                  des personnes connectées et les messages postés avec le nom
+                  de leur auteur.
+                </li>
+
+                <li>
+                  <strong>Dialogue :</strong> cette activité permet de communiquer avec les
+                  autres participants du cours un peu comme une messagerie.
+                </li>
+
+                <li>
+                  <strong>Sondages : </strong>pour consulter les étudiants sur une question
+                  particulière, l’enseignant utilise les sondages.
+                </li>
+
+                <li>
+                  <strong>Outils collaboratifs :</strong> le glossaire est un recueil
+                  d’articles classés alphabétiquement ; le wiki qui est un
+                  document hypertexte dont tout visiteur peut modifier les
+                  pages à volonté.
+                </li>
+
+                <li>
+                  <strong>Activités évaluées : </strong>Il y a des tests en ligne et la
+                  possibilité de procéder au dépôt d’un document sur la
+                  plateforme. Peut aussi être consulté un tableau avec la
+                  liste de toutes les activités notées dans le cours et les
+                  notes.
+                </li>
+              </ul>
+              <em class="subtitle is-4">
+                La plateforme permet aux étudiants de déposer leurs devoirs et d'intéragire avec leurs enseignants en directe
+              </em>
+
             </div>
 
-            <hr />
+            {/* <hr />
             <div class="columns tile subtitle">
               <div class="column is-one-quarter">Guide de démarrage</div>
               <div class="column">
@@ -327,7 +414,7 @@ export const IndexPageTemplate = ({
                 <Link to="/blog/entry-under-construction">Voir le contenu</Link>
               </div>
             </div>
-            <hr />
+            <hr /> */}
           </div>
         </div>
       </section>
@@ -338,9 +425,7 @@ export const IndexPageTemplate = ({
           paddingBottom: "4em"
         }}
       >
-        <Link class="button is-primary is-large is-primary" to="/contact">
-          Demandez votre ENT
-      </Link>
+        <Link class="button is-primary is-large is-primary" to="/contact">Ouvrir un compte</Link>
       </div>
     </div>
   );
