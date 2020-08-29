@@ -192,6 +192,17 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section> */}
+      {/* <section id="parents" className="section section--gradient">
+        <div className="container">
+          <div className="content">
+            <div className="column is-12">
+              <figure class="image is-16by9">
+                <iframe class="has-ratio" width="920" height="460" src="https://www.youtube.com/embed/EV8Z4HN3y6Y?showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section> */}
 
 
       <section id="parents" className="section section--gradient">
@@ -217,6 +228,11 @@ export const IndexPageTemplate = ({
               ordinateur PC ou Mac, une tablette ou même un smartphone.
               {/* Vous pouvez utiliser les navigateurs suivants : */}
               </p>
+
+              <figure class="is-fullwidth">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EV8Z4HN3y6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              </figure>
 
               <h3 className="has-text-weight-semibold is-size-2">Fonctionalités</h3>
               <ul>
