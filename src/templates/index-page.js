@@ -114,22 +114,22 @@ export const IndexPageTemplate = ({
               </p> */}
             </div>
           </div>
-          {/* <div
+          <div
             className="content buttons is-centered"
             style={{
               marginTop: "1em"
             }}
-          > 
-          <a
+          >
+            <a
               class="button is-primary is-light is-medium is-primary"
               href="https://learn.edukatek.com/login/index.php"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Accéder à notre ENT
-          </a> */}
-          {/* </button> */}
-          {/* </div> */}
+              Accéder à la Plateforme
+          </a>
+            {/* </button> */}
+          </div>
         </div>
       </div>
       {/* <section id="parents" className="section section--gradient">
